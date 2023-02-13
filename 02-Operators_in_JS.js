@@ -33,5 +33,11 @@ console.log( a1>a2 || a1!=a2)  //returns true if any one is true else returns fa
 console.log(!true)
 console.log(!false)
 
+//ternery operators
+let age=prompt("enter your age:");
+age=Number.parseInt(age);   //converts string to the number type
+console.log("you are",((age>18)? "eligible to drive" : "not eligible to drive")); 
+
+
 
 
