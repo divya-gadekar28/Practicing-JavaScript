@@ -33,7 +33,6 @@ else{
 }
 
 //switch case statements
-
 let n = prompt("whats your name?");
 switch(n){
     case 'divya':console.log("you're principal")
