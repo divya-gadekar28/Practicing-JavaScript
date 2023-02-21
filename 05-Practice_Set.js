@@ -44,11 +44,11 @@ console.log("number2 =",num2);
 //program to display whether the alphabet is vowel or consonent
 let ch=prompt("enter an alphabet : ");
 if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
-console.log(ch,"is a vowel");
+    console.log(ch,"is a vowel");
 else if(ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U')
-console.log(ch,"is a vowel");
+    console.log(ch,"is a vowel");
 else
-console.log(ch,"is a consonent");
+    console.log(ch,"is a consonent");
 
 
 //program to display table of number
@@ -59,17 +59,16 @@ let result;
 for(let i=1;i<=10;i++){
     result=n*i;
     console.log(n,"*",i,"=",result);
+}
 
 
 // program to find the factors of an integer
-let num = prompt('Enter a positive number: ');
+let num = prompt("Enter a positive number: ");
 console.log("The factors of",num,"is:");
-// looping through 1 to num
 for(let i = 1; i <= num; i++) {
-// check if number is a factor
-if(num % i == 0) {
-console.log(i);
-}
+    if(num % i == 0) {
+    console.log(i);
+    }
 }
 
 
