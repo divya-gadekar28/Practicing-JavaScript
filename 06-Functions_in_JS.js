@@ -72,7 +72,7 @@ factorial(num);
 
 //arrow functions
 /*syntax :-
-let function_name = (arg1, arg2,....n) =>{
+function_name = (arg1, arg2,....n) =>{
     //code to be executed
 } 
 */
