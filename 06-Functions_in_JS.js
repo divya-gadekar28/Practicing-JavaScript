@@ -69,3 +69,22 @@ function factorial(num){
 let num=prompt("enter any number : ");
 num=Number.parseInt(num);
 factorial(num);
+
+//arrow functions
+/*syntax :-
+let function_name = (arg1, arg2,....n) =>{
+    //code to be executed
+} 
+*/
+
+//basic example
+fun1 = (a, b) =>{
+    console.log("multiplication is",a*b);
+}
+fun1(10,43);
+
+//example1
+fun2 = (val) => {
+    console.log("Hello",val);
+}
+fun2("Universe !!");
