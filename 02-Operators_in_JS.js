@@ -10,7 +10,7 @@ console.log("a / b = ",a/b)   //division
 console.log("a % b = ",a%b)   //modules
 console.log("a ** b = ",a**b)   //exponential
 console.log("a++ = ",a++)  //here it will first print the value and then increment
-console.log("a-- = ",a--)   //here it will first print the value and then increment
+console.log("a-- = ",a--)   //here it will first print the value and then decrement
 console.log("++a = ",++a)   //first increment and then print
 console.log("--a = ",--a)   //first decrement and then print
 
